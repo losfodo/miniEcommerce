@@ -1,0 +1,38 @@
+++++++++++++++servidor-api++++++++++++++++++++
+*servidor-api: backend do mini miniEcommerce
+*npm i : instalar todas as dependencias do backend como express.. bodyparser..
+* node index.js : terminal na pasta servidor-api.. inicia servidor na porta 3001 
+++++++++++++postman++++++++++++++++++
+*ir no postman para criar uma requisição nesse valor > opção post > http://localhost:3001/mini-ecommerce/checkout/finalizar-compra > opção body e tipo raw e json >>
+*para testar...>   {
+    "email":"marcia@test.com",
+    "total": "R$29,90"
+}                             >> save:para salvar > mini-ecommerce - finalizar-compra :muda url de chamada request > caminho para pasta > send : envio dos dados
+
+*exemplo postman requisição get para cidades estados > http://localhost:3001/mini-ecommerce/estado/SP/cidades :/SP/ exemplo de cidade escolhida > save > mini-ecommerce - listar cidades por estado: request > salvar servidor api click >>
+* >>send >retornando todos as cidades de Sao paulo
+
+++++++++++++react++++++++++++++++++++
+*npx create-react-app mini-ecommerce    :terminal criando projeto em react
+
+++++++++instalando dependencias+++++++++++
+*npm install react-bootstrap bootstrap --save   :terminal add dependencias react bootstrap e bootstrap em si tbm
+*npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome --save    :terminal é um conjunto de ferramentas de fontes e ícones com base em CSS e LESS
+*npm install react-datepicker date-fns@next   :terminal calendario para selecionar a data com datepicker e date-fns@next para horario formato brasil
+*npm install formik yup --save   :terminal dependencias do formulario formik e yup
+* npm install prop-types axios --save   :terminal prop-types validação de componentes e propriedades e axios para requisiçoes http
+
+++++++++++yup++++++++++++++
+*https://github.com/jquense/yup : documentação github sobre yup Yup faz validações de dados como string , integer , boolean , array , object e date o que torna muito simples mesmo para os que acabaram de conhecer a ferramenta
+*yup no caso sera usado para validaçoes dos campos requisitos
+
+
+
+
+
+
+#node index.js    :servidor-api ou backend
+#npm start    :startar react mini-ecommerce
+
+cd .1projetosCode/miniEcommerce/mini-ecommerce
+cd .1projetosCode/miniEcommerce/servidor-api
