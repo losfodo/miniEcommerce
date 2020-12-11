@@ -1,0 +1,3 @@
+.hidden {/*adiciona hidden de produto.js linha 12 no index.css para pegar todo miniEcomerce em si*/
+  display: none;/*fica invisivel*/
+}
