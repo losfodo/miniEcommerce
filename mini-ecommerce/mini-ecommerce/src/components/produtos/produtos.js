@@ -26,7 +26,7 @@ function Produtos(props) {//ao importar proptype add(props) na função construt
         variant="success"//alerta sera verde
         style={{ margin: '10px' }}
         show={exibirMsg}>{/*show: comtrolar atributo */}
-        <b>{produto}</b> adicionado com sucesso ao carrinho!{/*<b:negrito>add produto */}
+        <strong>{produto}</strong> adicionado com sucesso ao carrinho!{/*<b:negrito>add produto */}
       </Alert>
       <ListarProdutos
         exibirMensagem={exibirMensagem}//exibir mensagem de alerta
